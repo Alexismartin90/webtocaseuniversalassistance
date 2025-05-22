@@ -1,0 +1,72 @@
+body {
+    /* background-color: #f4f4f4; */
+    background-color: rgba(183, 244, 255, 0.7); /* Color más opaco */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 300px;
+}
+
+label {
+    margin-top: 1rem;
+    font-weight: bold;
+    text-align: left;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+input[type="submit"],
+button[type="submit"] {
+    margin-top: 1.5rem;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover,
+button[type="submit"]:hover {
+    background-color: #0c5ed7;
+}
+
+.contenedor_formulario{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_formulario h1{
+    margin: 0;
+}
