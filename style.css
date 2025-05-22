@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
-    padding-top: 40px;
+    padding-top: 10px;
 }
 
 form {
@@ -67,6 +67,13 @@ button[type="submit"]:hover {
     align-items: center;
 }
 
-.contenedor_formulario h1{
+.contenedor_formulario h2{
     margin: 0;
+    padding: 0;
+}
+
+.contenedor_formulario h3{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 0;
 }
